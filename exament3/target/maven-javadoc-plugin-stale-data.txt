@@ -1,0 +1,45 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'dylan 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'dylan 1.0-SNAPSHOT API'
+examen
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/src/main/java = 1716540147791
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/search.js = 1716540669944
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/allpackages-index.html = 1716540669928
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/search.html = 1716540669940
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/tag-search-index.js = 1716540669928
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/package-search-index.js = 1716540669928
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/overview-tree.html = 1716540669920
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/help-doc.html = 1716540669944
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/link.svg = 1716540669944
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/type-search-index.js = 1716540669928
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/stylesheet.css = 1716540669944
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/index-all.html = 1716540669936
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/element-list = 1716540669908
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/copy.svg = 1716540669944
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/script.js = 1716540669944
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/search-page.js = 1716540669944
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/allclasses-index.html = 1716540669928
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/member-search-index.js = 1716540669928
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/index.html = 1716540669940
+/home/vagrant/examen/examen3trimestre/CD2023ExamenT3/exament3/target/site/apidocs/module-search-index.js = 1716540669928
