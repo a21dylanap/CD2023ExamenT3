@@ -23,3 +23,42 @@ Lo primero fue poner la clase test en el apartado correspondiente de pruebas. Lu
 
 ## Ejercicio 3
 
+Lo primero que hice fue crear la clase que nos indicó el profesor en las instrucciones, luego lo primero que hay que hacer es ir al pom y configurar el plugin que viene por defecto llamado "maven-javadoc-plugin"
+
+```xml
+<configuration>
+    <archive>
+        <manifest>
+            <mainClass>
+                examen.App
+            </mainClass>
+        </manifest>
+    </archive>
+</configuration>
+```
+
+Luego ejecuté jar:jar para crear el .jar
+
+Se creó y fui a comprobar si se ejecutaba con "java -jar "nombre""
+
+Pero daba el error "no hay ningún atributo de manifiesto principal en prueba-0.0.1-SNAPSHOT.jar"
+
+Pero con una rapida busqueda encontre que el problema era que lo que está ocurriendo es que el JAR que se genera Maven no incluye, por defecto, la entrada correspondiente a la clase que contiene el método main(String[]) en el manifiesto, por lo que al intentar ejecutar el archivo la JVM no sabe que clase quieres usar como punto de entrada. Y con un nuevo plugin lo solucioné:
+
+´´´xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+            <archive>
+                <manifest>
+                    <mainClass>examen.App</mainClass>
+                </manifest>
+            </archive>
+        </configuration>
+    </plugin>
+´´´
+
+Y asi ya me funcionó.
+
+Gracias.
